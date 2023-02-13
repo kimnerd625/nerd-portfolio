@@ -1,13 +1,11 @@
 import React from "react";
 
+import Header from "../components/Header";
+
 const MainPage = () => {
   console.log('하이')
   return (
-    <div>
-      <h2>
-        하이
-      </h2>
-    </div>
+    <Header />
   );
 };
 
