@@ -1,13 +1,15 @@
 import React from "react";
 
-import Header from "../components/Header";
-import PageWrapper from "../components/PageWrapper";
+import PageWrapper from "../components/PageWrapper/PageWrapper";
+import Header from "../components/Header/Header";
+import Introduction from "../components/Introduction/Introduction";
 
 const MainPage = () => {
   console.log('하이')
   return (
     <PageWrapper>
       <Header />
+      <Introduction />
     </PageWrapper>
   );
 };

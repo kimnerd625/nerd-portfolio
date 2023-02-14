@@ -1,14 +1,17 @@
 import React from "react";
-import { HeaderContainer, HeaderSection, HeaderText } from './Header.styles';
+
+import Title from "../Typography/Title";
+
+import { HeaderContainer, HeaderSection, } from './Header.styles';
 
 const Header = () => {
   return (
     <>
       <HeaderSection>
         <HeaderContainer>
-          <HeaderText>
-          &lt;KimNerd&#47;&gt;
-          </HeaderText>
+          <Title>
+            KimNerd
+          </Title>
         </HeaderContainer>
       </HeaderSection>
     </>
