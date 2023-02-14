@@ -90,7 +90,7 @@ video {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 100%;
+  font-size: 1rem;
   font: inherit;
   vertical-align: baseline;
 }
@@ -112,6 +112,9 @@ section {
 /* HTML5 hidden-attribute fix for newer browsers */
 *[hidden] {
   display: none;
+}
+html {
+  font-size: 16px;
 }
 menu,
 ol,
@@ -139,7 +142,7 @@ table {
 body {
   margin: 0 auto;
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   color: #000;
   line-height: 1.2;
