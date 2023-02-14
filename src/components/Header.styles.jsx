@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const HeaderSection = styled.div`
-  width: 100%;
   display: flex;
   flex-direction: row;
 `;
@@ -11,7 +10,8 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderText = styled.div`
-
+  font-size: 3rem;
+  font-weight: 600;
 `;
 
 export { HeaderSection, HeaderContainer, HeaderText, };
