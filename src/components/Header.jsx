@@ -7,7 +7,7 @@ const Header = () => {
       <HeaderSection>
         <HeaderContainer>
           <HeaderText>
-            kimNerd
+          &lt;KimNerd&#47;&gt;
           </HeaderText>
         </HeaderContainer>
       </HeaderSection>
