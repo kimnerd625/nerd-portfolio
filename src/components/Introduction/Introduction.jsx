@@ -1,8 +1,7 @@
 import React from "react";
-
 import portfolioData from "../../portfolioData.json";
-
 import SubTitle from "../Typography/SubTitle";
+import MarkdownRenderer from "../Markdown/MarkdownRenderer";
 
 import { 
   IntroductionContainer, 
@@ -43,6 +42,7 @@ const Introduction = () => {
           </ProfileText>
         </ProfileTextContainer>
       </PersonalInfo>
+      <MarkdownRenderer />
     </IntroductionContainer>
   );
 }
