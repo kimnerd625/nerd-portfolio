@@ -1,7 +1,7 @@
-import React, { useState, useEffect } from "react";
-import { MarkdownContainer } from './MarkdownRenderer.styles';
-import ReactMarkdown from "react-markdown";
+import React, { useState, useEffect, useRef } from "react";
+import { MarkdownContainer, MarkdownText } from './MarkdownRenderer.styles';
 import introduction from './../../assets/markdown/introduction.md';
+import MarkdownReplacer from "./MarkdownReplacer";
 
 const MarkdownRenderer = () => {
   const [ markdown, setMarkdown ] = useState("");
@@ -9,18 +9,13 @@ const MarkdownRenderer = () => {
   useEffect(()=> {
     fetch(introduction)
       .then((res) => res.text())
+      .then((text) => MarkdownReplacer(text))
       .then((text) => setMarkdown(text));
   }, []);
 
-  console.log(markdown)
-
   return (
     <MarkdownContainer>
-      <ReactMarkdown children={markdown}/>
-        {markdown}
-      <ReactMarkdown>
-        # Hello, *World*!
-      </ReactMarkdown>
+      <MarkdownText dangerouslySetInnerHTML={{__html: markdown }}/>
     </MarkdownContainer>
   )
 };

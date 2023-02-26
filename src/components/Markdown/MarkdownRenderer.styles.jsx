@@ -4,4 +4,11 @@ const MarkdownContainer = styled.div`
 
 `;
 
-export { MarkdownContainer };
+const MarkdownText = styled.div`
+  strong {
+    color: red;
+  }
+`;
+
+
+export { MarkdownContainer, MarkdownText };
