@@ -1,7 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+@font-face {
+	font-family: 'NanumSquare';
+	src: url(../../src/assets/fonts/NanumSquare.ttf);
+}
+@font-face {
+	font-family: 'NanumSquareB';
+	src: url(../../src/assets/fonts/NanumSquareB.ttf);
+}
+@font-face {
+	font-family: 'NanumSquareEB';
+	src: url(../../src/assets/fonts/NanumSquareEB.ttf);
+}
+@font-face {
+	font-family: 'NanumSquareL';
+	src: url(../../src/assets/fonts/NanumSquareL.ttf);
+}
+@font-face {
+	font-family: 'NanumSquareR';
+	src: url(../../src/assets/fonts/NanumSquareR.ttf);
+}
+
 * {
-  font-family: 'Oswald', 'Nanum Gothic', sans-serif;
+  font-family:
+    'Oswald', 
+    'Nanum Gothic', 
+    'Do Hyeon', 
+    'NanumSquare', 
+    'NanumSquareB', 
+    'NanumSquareEB', 
+    'NanumSquareL', 
+    'NanumSquareR', 
+    sans-serif;
 }
 
 html,

@@ -5,19 +5,20 @@ const MarkdownContainer = styled.div`
 `;
 
 const MarkdownText = styled.div`
-  font-family: 'Nanum Gothic';
+  font-family: 'NanumSquare';
 
   h1 {
-    color: ${(props) => props.theme.color.headerColor};
-    font-weight: 800;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
+    color: ${(props) => props.theme.color.headerColor_100};
+    font-family: 'NanumSquareEB';
+    font-size: 1.8rem;
+    line-height: 1.8rem;
     margin: 1rem 0;
   }
   h2 {
-    font-size: 1.1rem;
+    color: ${(props) => props.theme.color.headerColor_200};
+    font-family: 'NanumSquareB';
+    font-size: 1.2rem;
     line-height: 1.4rem;
-    font-weight: 600;
   }
   h3 {
     color: red;

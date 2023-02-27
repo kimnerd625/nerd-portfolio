@@ -13,8 +13,8 @@ const HeaderContainer = styled.div`
 `;
 
 const HeaderText = styled.div`
-  font-size: 3rem;
-  font-weight: 600;
+  font-family: 'NanumSquareB';
+  font-size: 2rem;
 `;
 
 export { HeaderSection, HeaderContainer, HeaderText, };

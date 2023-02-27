@@ -31,7 +31,9 @@ const ProfileTextContainer = styled.ul`
   `;
   
   const ProfileText = styled.li`
-  font-size: 1.4rem;
+  font-family: 'NanumSquareEB';
+  font-size: 1.2rem;
+  line-height: 2rem;
 `;
 
 export { 
