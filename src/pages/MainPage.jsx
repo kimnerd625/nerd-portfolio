@@ -5,6 +5,7 @@ import Margin from "../components/Margin/Margin";
 import Header from "../components/Header/Header";
 import Introduction from "../components/Introduction/Introduction";
 import MyProject from "../components/MyProject/MyProject";
+import MyTimeline from "../components/MyTimeline/MyTimeline";
 
 const MainPage = () => {
   console.log('하이')
@@ -16,6 +17,8 @@ const MainPage = () => {
       <Introduction />
       <Margin size='1rem'/>
       <MyProject />
+      <Margin size='1rem'/>
+      <MyTimeline />
     </PageWrapper>
   );
 };
