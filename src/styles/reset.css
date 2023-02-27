@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 @font-face {
 	font-family: 'NanumSquare';
@@ -35,6 +36,7 @@
     'NanumSquareL', 
     'NanumSquareR',
     'Monoton',
+    'Bebas Neue',
     sans-serif, 
     cursive;
 }
@@ -181,7 +183,7 @@ body {
   font-weight: 400;
   color: #000;
   line-height: 1.2;
-  background-color: #eee;
+  background-color: #fff;
 }
 
 a {

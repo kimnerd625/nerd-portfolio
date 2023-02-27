@@ -10,14 +10,14 @@ const MarkdownText = styled.div`
   h1 {
     color: ${(props) => props.theme.color.headerColor_100};
     font-family: 'NanumSquareEB';
-    font-size: 1.8rem;
-    line-height: 1.8rem;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
     margin: 1rem 0;
   }
   h2 {
     color: ${(props) => props.theme.color.headerColor_200};
     font-family: 'NanumSquareB';
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     line-height: 1.4rem;
   }
   h3 {

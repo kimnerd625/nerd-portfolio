@@ -25,15 +25,21 @@ const ProfileImage = styled.img`
 `;
 
 const ProfileTextContainer = styled.ul`
+  // border: 1px solid yellow;
   flex: 1;
+  display: flex;
+  flex-direction: column;
   margin: 1rem 1rem;
-  border: 1px solid yellow;
+  // align-items: center;
+  // justify-content: center;
   `;
   
-  const ProfileText = styled.li`
-  font-family: 'NanumSquareEB';
-  font-size: 1.2rem;
-  line-height: 2rem;
+const ProfileText = styled.li`
+  color: ${(props) => props.theme.color.listColor};
+  font-family: 'Bebas Neue';
+  font-size: 1.5rem;
+  line-height: 2.8rem;
+  padding: 0 1rem;
 `;
 
 export { 
