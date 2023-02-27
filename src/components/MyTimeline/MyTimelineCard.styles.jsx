@@ -46,12 +46,16 @@ color: #fff;
 `;
 
 const CardTitle = styled.div`
+  font-size: 1rem;
+  line-height: 1.8rem;
   font-family: 'NanumSquareEB';
   color: ${(props) => props.theme.color.headerColor_100};
 `;
   
 const CardDescription = styled.div`
-  font-family: 'NanumSquareB';
+  font-size: 0.9rem;
+  line-height: 1rem;
+  font-family: 'NanumSquareR';
   color: ${(props) => props.theme.color.headerColor_200};
 `;
   

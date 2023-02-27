@@ -13,7 +13,7 @@ const MyTimeline = () => {
   return(
   <TimelineContainer>
     <SubTitle>
-      My Timeline
+      My Timelines
     </SubTitle>
     {timelines &&
       <>

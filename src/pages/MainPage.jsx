@@ -6,6 +6,7 @@ import Header from "../components/Header/Header";
 import Introduction from "../components/Introduction/Introduction";
 import MyProject from "../components/MyProject/MyProject";
 import MyTimeline from "../components/MyTimeline/MyTimeline";
+import MySkill from "../components/MySkill/MySkill";
 
 const MainPage = () => {
   console.log('하이')
@@ -19,6 +20,8 @@ const MainPage = () => {
       <MyProject />
       <Margin size='1rem'/>
       <MyTimeline />
+      <Margin size='1rem'/>
+      <MySkill />
     </PageWrapper>
   );
 };

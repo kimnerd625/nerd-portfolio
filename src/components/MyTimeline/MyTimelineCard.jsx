@@ -16,9 +16,7 @@ const MyTimelineCard = ({
 }) => {
   return (
     <CardContainer>
-      <CardShapeContainer>
-
-      </CardShapeContainer>
+      <CardShapeContainer/>
       <CardDetailContainer>
         <CardDate>
           {date}
