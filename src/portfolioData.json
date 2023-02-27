@@ -5,5 +5,37 @@
     "email": "eagle625@naver.com",
     "githubUrl": "https://github.com/kimnerd625",
     "blogUrl": "https://kimnerd.tistory.com"
-  }
+  },
+  "projects": [
+    {
+      "title": "[팀] OTT 계정 공유 서비스: 가치와치",
+      "description": "OTT 플랫폼 소비자의 경제적 측면의 구독 피로를 줄일 수 있는 OTT 플랫폼 계정 공유 서비스를 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획, 디자인, 발표 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2022.10 ~ 2022.11",
+      "skills": "React, Javascript, Axios, Styled-Components, Redux, AWS",
+      "imgUrl": "",
+      "projectUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "title": "[팀] OTT 계정 공유 서비스: 가치와치",
+      "description": "OTT 플랫폼 소비자의 경제적 측면의 구독 피로를 줄일 수 있는 OTT 플랫폼 계정 공유 서비스를 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획, 디자인, 발표 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2022.10 ~ 2022.11",
+      "skills": "React, Javascript, Axios, Styled-Components, Redux, AWS",
+      "imgUrl": "",
+      "projectUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "title": "[팀] OTT 계정 공유 서비스: 가치와치",
+      "description": "OTT 플랫폼 소비자의 경제적 측면의 구독 피로를 줄일 수 있는 OTT 플랫폼 계정 공유 서비스를 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획, 디자인, 발표 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2022.10 ~ 2022.11",
+      "skills": "React, Javascript, Axios, Styled-Components, Redux, AWS",
+      "imgUrl": "",
+      "projectUrl": "",
+      "githubUrl": ""
+    }
+  ]
 }
