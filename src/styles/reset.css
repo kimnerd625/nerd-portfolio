@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,600;0,700;0,800;0,900;1,600;1,700;1,800;1,900&display=swap');
 
 @font-face {
 	font-family: 'NanumSquare';
@@ -27,6 +28,7 @@
 
 * {
   font-family:
+    'Work Sans',
     'Oswald', 
     'Nanum Gothic', 
     'Do Hyeon', 
@@ -184,6 +186,7 @@ body {
   color: #000;
   line-height: 1.2;
   background-color: #fff;
+  transform: skew(-0.05deg);
 }
 
 a {

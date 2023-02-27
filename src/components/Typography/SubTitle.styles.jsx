@@ -7,10 +7,10 @@ const SubTitleContainer = styled.div`
 
 const SubTitleText = styled.h2`
   color: ${(props) => props.theme.color.titleColor};
-  font-family: 'Bebas Neue';
+  font-family: 'Work Sans';
   font-size: 2.75rem;
   line-height: 4rem;
-  font-weight: 500;
+  font-weight: 700;
 `;
 
 export {SubTitleContainer, SubTitleText}

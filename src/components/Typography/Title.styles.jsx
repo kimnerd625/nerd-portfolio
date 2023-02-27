@@ -6,9 +6,10 @@ const TitleContainer = styled.div`
 
 const TitleText = styled.h1`
   color: ${(props) => props.theme.color.titleColor};
-  font-family: 'Monoton';
+  font-family: 'Work Sans';
   font-size: 3.75rem;
   line-height: 5rem;
+  font-weight: 900;
 `;
 
 export {TitleContainer, TitleText}
