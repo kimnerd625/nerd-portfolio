@@ -25,14 +25,11 @@ const ProfileImage = styled.img`
 `;
 
 const ProfileTextContainer = styled.ul`
-  // border: 1px solid yellow;
   flex: 1;
   display: flex;
   flex-direction: column;
   margin: 1rem 1rem;
-  // align-items: center;
-  // justify-content: center;
-  `;
+`;
   
 const ProfileText = styled.li`
   color: ${(props) => props.theme.color.listColor};
