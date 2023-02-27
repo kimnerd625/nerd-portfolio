@@ -2,13 +2,16 @@ import styled, { keyframes } from "styled-components";
 
 const blink = keyframes`
   0% {
-    background-color: #f7e0c1;
+    background-color: #b3eaf5;
   }
-  50% {
-    background-color: #5f7783;
+  33% {
+    background-color: #e4bdf8;
+  }
+  66% {
+    background-color: #b9d0fc;
   }
   100% {
-    background-color: #f7e0c1;
+    background-color: #b3eaf5;
   }
 `
 
@@ -34,7 +37,7 @@ const CardDetailContainer = styled.div`
 margin: 1rem 1.5rem;
 `;
 
-const CardDate = styled.div`
+const CardDate = styled.button`
 margin: 0.75rem 0;
 padding: 0.25rem 0.5rem;
 border-radius: 0.5rem;
@@ -64,7 +67,7 @@ const CardContainer = styled.div`
   }
 
   &:hover ${CardDate}{
-    background-color: ${(props) => props.theme.color.highlightColor_100};
+    animation: ${blink} 1s linear infinite;
   }
 `;
 
