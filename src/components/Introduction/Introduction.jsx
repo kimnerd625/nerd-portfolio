@@ -18,7 +18,7 @@ const Introduction = () => {
     introduction: { name, email, githubUrl, blogUrl, },
   } = portfolioData;
 
-  const imgUrl = "/avatarImage.gif";
+  const imgUrl = "/avatar.gif";
 
   return (
     <IntroductionContainer>
