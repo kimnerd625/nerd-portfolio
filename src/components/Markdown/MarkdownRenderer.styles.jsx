@@ -8,7 +8,7 @@ const MarkdownText = styled.div`
   font-family: 'Nanum Gothic';
 
   h1 {
-    color: ${(props) => props.color.headerColor};
+    color: ${(props) => props.theme.color.headerColor};
     font-weight: 800;
     font-size: 1.6rem;
     line-height: 1.6rem;
