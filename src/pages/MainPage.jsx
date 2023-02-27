@@ -9,8 +9,9 @@ const MainPage = () => {
   console.log('하이')
   return (
     <PageWrapper>
-      <Margin size={2}/>
+      <Margin size='3rem'/>
       <Header />
+      <Margin size='1rem'/>
       <Introduction />
     </PageWrapper>
   );

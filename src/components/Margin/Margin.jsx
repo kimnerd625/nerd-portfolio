@@ -1,8 +1,11 @@
 import React from "react";
+import { MarginContainer } from './Margin.styles';
 
-const Margin = (size) => {
+const Margin = (e) => {
+
+  console.log(e);
   return (
-    <Margin size={size}/>
+    <MarginContainer size={e.size}/>
   );
 };
 

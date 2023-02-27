@@ -1,5 +1,7 @@
 import React from "react";
+
 import portfolioData from "../../portfolioData.json";
+import Margin from "../Margin/Margin";
 import SubTitle from "../Typography/SubTitle";
 import MarkdownRenderer from "../Markdown/MarkdownRenderer";
 
@@ -42,6 +44,7 @@ const Introduction = () => {
           </ProfileText>
         </ProfileTextContainer>
       </PersonalInfo>
+      <Margin size='1rem' />
       <MarkdownRenderer />
     </IntroductionContainer>
   );
