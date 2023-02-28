@@ -6,7 +6,9 @@ import htmlLogo from './../../assets/images/html.png';
 import javascriptLogo from './../../assets/images/javascript.png';
 import styledComponentsLogo from './../../assets/images/styled-components.png';
 
-import SubTitle from "../Typography/SubTitle";
+import SubTitle from '../Typography/SubTitle';
+
+import Data from '../../portfolioData.json';
 
 import { 
   MySkillContainer, 
@@ -17,61 +19,30 @@ import {
 } from "./MySkill.styles";
 
 const MySkill = () => {
+  const {skillSets} = Data;
 
   return (
+    <>
     <MySkillContainer>
       <SubTitle>
         My Skills
       </SubTitle>
-      <HexagonContainer>
-        <HexagonCardArea>
-          <HexagonCard>
-            <HexagonImage src={axiosLogo}/>
-          </HexagonCard>
-          <HexagonCard>
-            <HexagonImage src={cssLogo}/>
-          </HexagonCard>
-          <HexagonCard>
-            <HexagonImage src={htmlLogo}/>
-          </HexagonCard>
-          <HexagonCard>
-            <HexagonImage src={javascriptLogo}/>
-          </HexagonCard>
-        </HexagonCardArea>
-        <HexagonCardArea>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-        </HexagonCardArea>
-        <HexagonCardArea>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-          <HexagonCard>
-            하이
-          </HexagonCard>
-        </HexagonCardArea>
-      </HexagonContainer>
+        {skillSets && (
+          <HexagonContainer>
+            {skillSets.map((set, index) => (
+              <HexagonCardArea key={index}>
+                {set.skills.map((skill, index) => (
+                  <HexagonCard color={skill.backgroundColor}>
+                    <HexagonImage src={skill.imgUrl} />
+                  </HexagonCard>
+                ))}
+              </HexagonCardArea>
+            ))}
+          </HexagonContainer>
+        )}
     </MySkillContainer>
+    </>
   );
-}
+};
 
 export default MySkill;

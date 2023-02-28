@@ -59,5 +59,84 @@
       "title": "자퇴",
       "description": "앙 자퇴띠"
     }
+  ],
+  "skillSets": [
+    { "level": "1", 
+      "skills": [
+        {
+          "name": "javascript",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEsCaM%2Fbtr1bkKzxGC%2FfbVaZSk2TuPPgArlY4iDmK%2Fimg.png",
+          "backgroundColor": "#FBDE34"
+        },
+        {
+          "name": "styled-components",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr1vtQ%2Fbtr1dcMb0p6%2F1KK8nxmsjSt4CVVh63gAGk%2Fimg.png",
+          "backgroundColor": "#E7E6E6"
+        },
+        {
+          "name": "axios",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5NGt6%2Fbtr01TNuPhN%2FnbGkswgkfHFN2uM0NbsDG1%2Fimg.png",
+          "backgroundColor": "#0A99E0"
+        },
+        {
+          "name": "css",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeyuJqF%2Fbtr0NMPkUel%2FdMmeEvwKadRhO2U8kHDmr0%2Fimg.png",
+          "backgroundColor": "#369CD6"
+        }
+      ]
+    },
+    { "level": "2", 
+      "skills": [
+        {
+          "name": "javascript",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEsCaM%2Fbtr1bkKzxGC%2FfbVaZSk2TuPPgArlY4iDmK%2Fimg.png",
+          "backgroundColor": "#FBDE34"
+        },
+        {
+          "name": "styled-components",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr1vtQ%2Fbtr1dcMb0p6%2F1KK8nxmsjSt4CVVh63gAGk%2Fimg.png",
+          "backgroundColor": "#E7E6E6"
+        },
+        {
+          "name": "axios",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5NGt6%2Fbtr01TNuPhN%2FnbGkswgkfHFN2uM0NbsDG1%2Fimg.png",
+          "backgroundColor": "#0A99E0"
+        },
+        {
+          "name": "css",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeyuJqF%2Fbtr0NMPkUel%2FdMmeEvwKadRhO2U8kHDmr0%2Fimg.png",
+          "backgroundColor": "#369CD6"
+        },
+        {
+          "name": "html",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fce8U10%2Fbtr1nDvoR66%2Fv2MGnd5FDradq7I8JjSiXK%2Fimg.png",
+          "backgroundColor": "#F16529"
+        }
+      ]
+    },
+    { "level": "3", 
+      "skills": [
+        {
+          "name": "javascript",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FEsCaM%2Fbtr1bkKzxGC%2FfbVaZSk2TuPPgArlY4iDmK%2Fimg.png",
+          "backgroundColor": "#FBDE34"
+        },
+        {
+          "name": "styled-components",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2Fr1vtQ%2Fbtr1dcMb0p6%2F1KK8nxmsjSt4CVVh63gAGk%2Fimg.png",
+          "backgroundColor": "#E7E6E6"
+        },
+        {
+          "name": "axios",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F5NGt6%2Fbtr01TNuPhN%2FnbGkswgkfHFN2uM0NbsDG1%2Fimg.png",
+          "backgroundColor": "#0A99E0"
+        },
+        {
+          "name": "css",
+          "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeyuJqF%2Fbtr0NMPkUel%2FdMmeEvwKadRhO2U8kHDmr0%2Fimg.png",
+          "backgroundColor": "#369CD6"
+        }
+      ]
+    }
   ]
 }

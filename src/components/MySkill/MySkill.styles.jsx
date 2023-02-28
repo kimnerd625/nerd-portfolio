@@ -25,13 +25,17 @@ const HexagonCardArea = styled.div`
   &:nth-child(3) {
     transform: translateY(-30%);
   }
+
+  &:nth-child(4) {
+    transform: translateY(-45%);
+  }
 `;
 
 const HexagonCard = styled.div`
   width: 9rem;
   height: 9rem;
   margin: 0 0.5rem;
-  background-color: ${(props) => props.theme.color.highlightColor_100};
+  background-color: ${(props) => props.color};
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
   font-size: 1.4rem;
   color: ${(props) => props.theme.color.headerColor_100};
