@@ -19,9 +19,9 @@ const MainPage = () => {
       <Margin size='1rem'/>
       <MyProject />
       <Margin size='1rem'/>
-      <MyTimeline />
-      <Margin size='1rem'/>
       <MySkill />
+      <Margin size='1rem'/>
+      <MyTimeline />
     </PageWrapper>
   );
 };

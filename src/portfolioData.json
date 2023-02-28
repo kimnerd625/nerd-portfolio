@@ -18,46 +18,61 @@
       "githubUrl": ""
     },
     {
-      "title": "[팀] OTT 계정 공유 서비스: 가치와치",
-      "description": "OTT 플랫폼 소비자의 경제적 측면의 구독 피로를 줄일 수 있는 OTT 플랫폼 계정 공유 서비스를 개발했습니다.",
+      "title": "[팀] 동네 모임 커뮤니티 플랫폼: 동네#람들",
+      "description": "같은 지역 내 같은 관심사를 가진 사용자들이 서로 편하게 모임을 만들고 운영하는 플랫폼 서비스를 개발했습니다.",
       "attribution": "해당 프로젝트의 기획, 디자인, 발표 및 프론트엔드 개발을 담당했습니다.",
-      "date": "2022.10 ~ 2022.11",
+      "date": "2022.11 ~ 2022.12",
       "skills": "#React, #Javascript, #Axios, #Styled-Components, #Redux, #AWS",
-      "imgUrl": "https://user-images.githubusercontent.com/104896647/221491172-822e6550-eb7a-4f5f-b823-9e1e8556b048.jpg",
+      "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNXLwD%2Fbtr1f0ShwuR%2FG4gTjIY783PQfi8W33dBM1%2Fimg.png",
       "projectUrl": "",
       "githubUrl": ""
     },
     {
-      "title": "[팀] OTT 계정 공유 서비스: 가치와치",
-      "description": "OTT 플랫폼 소비자의 경제적 측면의 구독 피로를 줄일 수 있는 OTT 플랫폼 계정 공유 서비스를 개발했습니다.",
-      "attribution": "해당 프로젝트의 기획, 디자인, 발표 및 프론트엔드 개발을 담당했습니다.",
-      "date": "2022.10 ~ 2022.11",
-      "skills": "#React, #Javascript, #Axios, #Styled-Components, #Redux, #AWS",
-      "imgUrl": "https://user-images.githubusercontent.com/104896647/221491172-822e6550-eb7a-4f5f-b823-9e1e8556b048.jpg",
+      "title": "[팀] 튜터링 일정 및 수업 관리 모바일 앱: 수숙관",
+      "description": "튜터와 튜티의 개인 수업 및 일정을 관리하고 정리할 수 있는 모바일 앱을 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획, 디자인 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2022.12 ~ ",
+      "skills": "#React-Native, #React, #Javascript, #Axios, #Styled-Components, #Redux",
+      "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMIJPQ%2Fbtr06XIVfgy%2FrphMoisz0Td3NojK6JgS1k%2Fimg.png",
+      "projectUrl": "",
+      "githubUrl": ""
+    },
+    {
+      "title": "[개인] 개인 커스텀 포트폴리오: nerd-portfolio",
+      "description": "제가 원하는 느낌으로 쉽게 수정 가능한 커스텀 포트폴리오 웹사이트를 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획, 디자인 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2023.01 ~ 2023.02",
+      "skills": "#React, #Javascript, #Styled-Components, #Netlify",
+      "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeAFUGE%2Fbtr1dcMfDK1%2FdWska8kkgHHnAB6pvycdcK%2Fimg.png",
       "projectUrl": "",
       "githubUrl": ""
     }
   ],
   "timelines": [
     {
-      "date": "2021.03 ~ 2023.08",
+      "date": "2022.12 ~ ",
+      "title": "협업 프로젝트 - 수숙관",
+      "description": "팀 프로젝트 진행, 서비스 기획, 개발 및 배포"
+    },
+    {
+      "date": "2022.11 ~ 2022.12",
+      "title": "협업 프로젝트 - 동네#람들",
+      "description": "팀 프로젝트 진행, 서비스 기획, 개발 및 배포"
+    },
+    {
+      "date": "2022.10 ~ 2022.11",
+      "title": "협업 프로젝트 - 가치와치",
+      "description": "팀 프로젝트 진행, 서비스 기획, 개발 및 배포"
+    },
+    {
+      "date": "2021.09 ~ 2022.06",
+      "title": "연세대 중앙컴퓨터동아리 YCC 부원 활동",
+      "description": "파이썬 자료구조 및 알고리즘 초/중급 스터디 - 스터디장으로 활동"
+    },
+    {
+      "date": "2021.03 ~ ",
       "title": "연세대학교",
       "description": "연세대학교 중어중문학, 경영학 전공"
-    },
-    {
-      "date": "2022.10 ~ 2022.10",
-      "title": "자퇴",
-      "description": "앙 자퇴띠"
-    },
-    {
-      "date": "2022.10 ~ 2022.10",
-      "title": "자퇴",
-      "description": "앙 자퇴띠"
-    },
-    {
-      "date": "2022.10 ~ 2022.10",
-      "title": "자퇴",
-      "description": "앙 자퇴띠"
     }
   ],
   "skillSets": [

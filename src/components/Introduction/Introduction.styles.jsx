@@ -29,6 +29,7 @@ const ProfileTextContainer = styled.ul`
   display: flex;
   flex-direction: column;
   margin: 1rem 1rem;
+  justify-content: center;
 `;
   
 const ProfileText = styled.li`
@@ -36,7 +37,7 @@ const ProfileText = styled.li`
   font-family: 'Work Sans';
   font-weight: 500;
   font-size: 1.2rem;
-  line-height: 2.8rem;
+  line-height: 2rem;
   padding: 0 1rem;
 `;
 
