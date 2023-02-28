@@ -10,6 +10,7 @@ const TitleText = styled.h1`
   font-size: 3.75rem;
   line-height: 5rem;
   font-weight: 900;
+  font-style: italic;
 `;
 
 export {TitleContainer, TitleText}

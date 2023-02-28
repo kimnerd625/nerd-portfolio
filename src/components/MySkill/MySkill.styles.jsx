@@ -1,4 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const blink = keyframes`
+  0% {
+    background-color: #b3eaf5;
+  }
+  33% {
+    background-color: #e4bdf8;
+  }
+  66% {
+    background-color: #b9d0fc;
+  }
+  100% {
+    background-color: #b3eaf5;
+  }
+`
 
 const MySkillContainer = styled.div`
   
@@ -45,6 +60,10 @@ const HexagonCard = styled.div`
   text-align: center;
   cursor: pointer;
   align-items: center;
+
+  &: hover {
+    animation: ${blink} 1s linear infinite;
+  }
 `;
 
 const HexagonImage = styled.img`

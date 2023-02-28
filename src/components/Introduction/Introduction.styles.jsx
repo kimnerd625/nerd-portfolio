@@ -33,8 +33,9 @@ const ProfileTextContainer = styled.ul`
   
 const ProfileText = styled.li`
   color: ${(props) => props.theme.color.listColor};
-  font-family: 'Bebas Neue';
-  font-size: 1.5rem;
+  font-family: 'Work Sans';
+  font-weight: 500;
+  font-size: 1.2rem;
   line-height: 2.8rem;
   padding: 0 1rem;
 `;
