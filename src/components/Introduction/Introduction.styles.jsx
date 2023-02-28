@@ -29,16 +29,23 @@ const ProfileTextContainer = styled.ul`
   display: flex;
   flex-direction: column;
   margin: 1rem 1rem;
-  justify-content: center;
 `;
   
 const ProfileText = styled.li`
   color: ${(props) => props.theme.color.listColor};
   font-family: 'Work Sans';
-  font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 2rem;
-  padding: 0 1rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.8rem;
+  padding: 0.5rem 1rem;
+
+  & > span {
+    font-weight: 700;
+    margin-right: 0.75rem;
+    padding: 0.25rem 0.5rem;
+    background-color: #b9d0fc;
+    border-radius: 1.5rem;
+  }
 `;
 
 export { 

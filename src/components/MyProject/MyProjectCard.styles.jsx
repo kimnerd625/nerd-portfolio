@@ -1,12 +1,19 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
 
-const CardContainer = styled.div`
-  display: flex;
-  flex-direction: row;
-  margin: 1rem;
-  font-family: 'NanumSquare';
-  justify-content: center;
-`;
+const blinkText = keyframes`
+  0% {
+    color: #b3eaf5;
+  }
+  33% {
+    color: #e4bdf8;
+  }
+  66% {
+    color: #b9d0fc;
+  }
+  100% {
+    color: #b3eaf5;
+  }
+`
 
 const CardImageContainer = styled.div`
   margin: 0.5rem 0;
@@ -59,6 +66,24 @@ const CardSkill = styled.h3`
   color: ${(props) => props.theme.color.headerColor_300};
   font-size: 0.8rem;
   line-height: 1rem;
+`;
+
+const CardContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  font-family: 'NanumSquare';
+  justify-content: center;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:hover ${CardTitle}{
+    animation: ${blinkText} 1s linear infinite;
+  }
+
 `;
 
 

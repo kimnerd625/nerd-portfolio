@@ -3,6 +3,7 @@ import React from "react";
 import portfolioData from "../../portfolioData.json";
 import Margin from "../Margin/Margin";
 import SubTitle from "../Typography/SubTitle";
+import Highlight from "../Typography/Highlight";
 import MarkdownRenderer from "../Markdown/MarkdownRenderer";
 
 import { 
@@ -17,7 +18,7 @@ import {
 const Introduction = () => {
 
   const {
-    introduction: { name, email, githubUrl, blogUrl, },
+    introduction: { name, nickName, email, githubUrl, blogUrl, },
   } = portfolioData;
 
   const imgUrl = "/avatar.gif";
@@ -30,17 +31,20 @@ const Introduction = () => {
           <ProfileImage src={imgUrl}/>
         </ProfileImageContainer>
         <ProfileTextContainer>
+          <Highlight>
+            김지훈
+          </Highlight>
           <ProfileText>
-            Name: {name}
+            <span>Nickname</span>{nickName}
           </ProfileText>
           <ProfileText>
-            Email: {email}
+            <span>Email</span>{email}
           </ProfileText>
           <ProfileText>
-            GitHub: {githubUrl}
+            <span>GitHub</span>{githubUrl}
           </ProfileText>
           <ProfileText>
-            Blog: {blogUrl}
+            <span>Blog</span>{blogUrl}
           </ProfileText>
         </ProfileTextContainer>
       </PersonalInfo>

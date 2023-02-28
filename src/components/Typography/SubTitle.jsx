@@ -7,6 +7,6 @@ const SubTitle = ({ children }) => {
       <SubTitleText>{children}</SubTitleText>
     </SubTitleContainer>
   );
-}
+};
 
 export default SubTitle;
