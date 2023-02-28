@@ -22,6 +22,7 @@ const MainPage = () => {
       <MySkill />
       <Margin size='1rem'/>
       <MyTimeline />
+      <Margin size='1rem'/>
     </PageWrapper>
   );
 };

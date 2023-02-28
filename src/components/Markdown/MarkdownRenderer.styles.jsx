@@ -24,7 +24,11 @@ const MarkdownText = styled.div`
     color: red;
   }
   strong {
-    color: red;
+    font-family: 'NanumSquareEB';
+    text-decoration-line: underline;
+    text-decoration-thickness: 1.2rem;
+    text-decoration-color: #fef5d4;
+    text-underline-offset: -0.9rem;
   }
 `;
 

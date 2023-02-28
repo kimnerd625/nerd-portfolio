@@ -7,7 +7,7 @@ const HighlightText = styled.h2`
   line-height: 2rem;
   text-decoration-line: underline;
   text-decoration-thickness: 1.2rem;
-  text-decoration-color: #f7e0c1;
+  text-decoration-color: #fef5d4;
   text-underline-offset: -0.75rem;
 `;
 

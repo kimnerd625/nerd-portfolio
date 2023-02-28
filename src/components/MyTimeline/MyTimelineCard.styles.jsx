@@ -34,15 +34,16 @@ const CardShapeContainer = styled.div`
 `;
 
 const CardDetailContainer = styled.div`
-margin: 1rem 1.5rem;
+  margin: 1rem 1.5rem;
 `;
 
 const CardDate = styled.button`
-margin: 0.75rem 0;
-padding: 0.25rem 0.5rem;
-border-radius: 0.5rem;
-background-color: ${(props) => props.theme.color.buttonColor};
-color: #fff;
+  margin: 0.75rem 0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+  background-color: ${(props) => props.theme.color.buttonColor};
+  color: #fff;
+  pointer-events: none
 `;
 
 const CardTitle = styled.div`

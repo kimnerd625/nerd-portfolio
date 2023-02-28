@@ -47,8 +47,8 @@ const HexagonCardArea = styled.div`
 `;
 
 const HexagonCard = styled.div`
-  width: 9rem;
-  height: 9rem;
+  width: 8rem;
+  height: 8rem;
   margin: 0 0.5rem;
   background-color: ${(props) => props.color};
   clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
