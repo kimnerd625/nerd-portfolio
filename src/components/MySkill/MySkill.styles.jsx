@@ -30,7 +30,7 @@ const HexagonContainer = styled.div`
 
   @media (max-width: 600px) {
     padding: 0;
-    margin-left: 0.75rem;
+    margin-left: 1rem;
     transform: translateX(-3.25%);
   }
 `;
@@ -72,8 +72,9 @@ const HexagonCard = styled.div`
   }
 
   @media (max-width: 600px) {
-    max-width: 3.5rem;
-    max-height: 3.5rem;
+    max-width: 4rem;
+    max-height: 4rem;
+    margin: 0 0.2rem;
   }
 `;
 
@@ -83,8 +84,8 @@ const HexagonImage = styled.img`
   object-fit: contain;
 
   @media (max-width: 600px) {
-    max-width: 2.25rem;
-    max-height: 2.25rem;
+    max-width: 2.5rem;
+    max-height: 2.5rem;
   }
 `;
 
