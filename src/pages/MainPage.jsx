@@ -8,6 +8,8 @@ import MyProject from "../components/MyProject/MyProject";
 import MyTimeline from "../components/MyTimeline/MyTimeline";
 import MySkill from "../components/MySkill/MySkill";
 
+import ImageCarousel from "../components/Carousel/ImageCarousel";
+
 const MainPage = () => {
   return (
     <PageWrapper>
@@ -22,6 +24,7 @@ const MainPage = () => {
       <Margin size='1rem'/>
       <MyTimeline />
       <Margin size='1rem'/>
+      <ImageCarousel />
     </PageWrapper>
   );
 };
