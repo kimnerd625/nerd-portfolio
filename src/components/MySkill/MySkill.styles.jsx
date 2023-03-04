@@ -27,6 +27,12 @@ const HexagonContainer = styled.div`
   flex-direction: column;
   flex-wrap: wrap;
   transform: translateX(-5%);
+
+  @media (max-width: 600px) {
+    padding: 0;
+    margin-left: 0.75rem;
+    transform: translateX(-3.25%);
+  }
 `;
 
 const HexagonCardArea = styled.div`
@@ -64,12 +70,22 @@ const HexagonCard = styled.div`
   &: hover {
     animation: ${blink} 1s linear infinite;
   }
+
+  @media (max-width: 600px) {
+    max-width: 3.5rem;
+    max-height: 3.5rem;
+  }
 `;
 
 const HexagonImage = styled.img`
   width: 5rem;
   height: 5rem;
   object-fit: contain;
+
+  @media (max-width: 600px) {
+    max-width: 2.25rem;
+    max-height: 2.25rem;
+  }
 `;
 
 export { 

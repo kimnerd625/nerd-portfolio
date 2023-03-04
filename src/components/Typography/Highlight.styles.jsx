@@ -9,11 +9,19 @@ const HighlightText = styled.h2`
   text-decoration-thickness: 1.2rem;
   text-decoration-color: #fef5d4;
   text-underline-offset: -0.75rem;
+
+  @media (max-width: 600px) {
+    font-size: 1.4rem;
+  }
 `;
 
 const HighlightTextContainer = styled.div`
   margin: 0.5rem 1rem;
   margin-bottom: 1.5rem;
+
+  @media (max-width: 600px) {
+    margin: 0.5rem 0rem;
+  }
 `;
 
 export {HighlightText, HighlightTextContainer};

@@ -9,7 +9,6 @@ import MyTimeline from "../components/MyTimeline/MyTimeline";
 import MySkill from "../components/MySkill/MySkill";
 
 const MainPage = () => {
-  console.log('하이')
   return (
     <PageWrapper>
       <Margin size='3rem'/>

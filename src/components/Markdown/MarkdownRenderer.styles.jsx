@@ -13,6 +13,10 @@ const MarkdownText = styled.div`
     font-size: 1.6rem;
     line-height: 1.6rem;
     margin: 1rem 0;
+
+    @media (max-width: 600px) {
+      font-size: 1.4rem;
+    }
   }
   h2 {
     color: ${(props) => props.theme.color.headerColor_200};

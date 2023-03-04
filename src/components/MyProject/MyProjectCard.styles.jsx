@@ -41,6 +41,10 @@ const CardTitle = styled.div`
   font-family: 'NanumSquareEB';
   font-size: 1.2rem;
   line-height: 1.6rem;
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 const CardDate = styled.span`
@@ -48,24 +52,40 @@ const CardDate = styled.span`
   font-size: 0.8rem;
   line-height: 1.6rem;
   margin-left: 0.75rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.6rem;
+  }
 `;
   
 const CardDescription = styled.h3`
   color: ${(props) => props.theme.color.headerColor_200};
   font-size: 0.9rem;
   line-height: 1.4rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.8rem;
+  }
 `;
 
 const CardAttribution = styled.h3`
   color: ${(props) => props.theme.color.headerColor_300};
   font-size: 0.8rem;
   line-height: 1.4rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.7rem;
+  }
 `;
   
 const CardSkill = styled.h3`
   color: ${(props) => props.theme.color.headerColor_300};
   font-size: 0.8rem;
   line-height: 1rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.7rem;
+  }
 `;
 
 const CardContainer = styled.div`
