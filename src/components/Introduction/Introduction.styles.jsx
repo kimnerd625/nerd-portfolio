@@ -1,4 +1,19 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const blinkText = keyframes`
+  0% {
+    color: #b3eaf5;
+  }
+  33% {
+    color: #e4bdf8;
+  }
+  66% {
+    color: #b9d0fc;
+  }
+  100% {
+    color: #b3eaf5;
+  }
+`
 
 const IntroductionContainer = styled.div`
 
@@ -71,6 +86,14 @@ const ProfileText = styled.li`
   }
 `;
 
+const Link = styled.a`
+  cursor: pointer;
+
+  &:hover {
+    animation: ${blinkText} 1s linear infinite;
+  }
+`;
+
 export { 
   IntroductionContainer, 
   PersonalInfo, 
@@ -78,4 +101,5 @@ export {
   ProfileImage, 
   ProfileText, 
   ProfileTextContainer, 
+  Link,
 };

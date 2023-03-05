@@ -13,6 +13,7 @@ import {
   ProfileImageContainer, 
   ProfileText,
   ProfileTextContainer,
+  Link, 
 } from "./Introduction.styles";
 
 const Introduction = () => {
@@ -35,16 +36,20 @@ const Introduction = () => {
             김지훈
           </Highlight>
           <ProfileText>
-            <span>Nickname</span>{nickName}
+            <span>Nickname</span>
+            <Link></Link>{nickName}
           </ProfileText>
           <ProfileText>
-            <span>Email</span>{email}
+            <span>Email</span>
+            <Link href='https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=jihunkim625@yonsei.ac.kr'>{email}</Link>
           </ProfileText>
           <ProfileText>
-            <span>GitHub</span>{githubUrl}
+            <span>GitHub</span>
+            <Link href="https://github.com/kimnerd625">{githubUrl}</Link>
           </ProfileText>
           <ProfileText>
-            <span>Blog</span>{blogUrl}
+            <span>Blog</span>
+            <Link href="https://kimnerd.tistory.com">{blogUrl}</Link>
           </ProfileText>
         </ProfileTextContainer>
       </PersonalInfo>
