@@ -50,7 +50,7 @@ const ImageCarousel = () => {
           <IoChevronForwardOutline className='icon'/>
         </Button>
       </ButtonContainer>
-      <Image src={imgUrl}/>
+      <Image src={imgUrl} key={`${imgUrl}`}/>
     </ImageContainer>
   );
 };

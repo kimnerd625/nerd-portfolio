@@ -1,4 +1,22 @@
-import styled from "styled-components";
+import styled, {keyframes} from "styled-components";
+
+const fadeIn = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
+
+const fadeOut = keyframes`
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+`;
 
 const ImageContainer = styled.div`
   position: relative;
@@ -12,6 +30,8 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   max-width: 100%;
   max-height: 100%;
+  animation: ${fadeIn} 2s;
+  animation: ${fadeOut} 2s;
 `;
 
 const ButtonContainer = styled.div`
@@ -24,7 +44,7 @@ const ButtonContainer = styled.div`
 
 const Button = styled.div`
   cursor: pointer;
-
+  z-index: 999;
   .icon {
     font-size: 2rem;
     color: ${(props) => props.theme.color.headerColor_200}
