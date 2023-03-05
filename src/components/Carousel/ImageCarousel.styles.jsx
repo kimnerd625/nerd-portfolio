@@ -30,8 +30,8 @@ const ImageContainer = styled.div`
 const Image = styled.img`
   max-width: 100%;
   max-height: 100%;
-  animation: ${fadeIn} 2s;
-  animation: ${fadeOut} 2s;
+  animation: ${fadeIn} 1.2s;
+  animation: ${fadeOut} 1.2s;
 `;
 
 const ButtonContainer = styled.div`
