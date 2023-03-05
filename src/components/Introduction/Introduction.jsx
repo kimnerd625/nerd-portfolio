@@ -28,6 +28,7 @@ const Introduction = ({setIsNerdOpened}) => {
 
   const handleClick = () => {
     setIsNerdOpened(true);
+    document.body.style.overflow = 'hidden';
   };
 
   return (
