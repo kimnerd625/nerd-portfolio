@@ -4,15 +4,13 @@ import portfolioData from "../../portfolioData.json";
 import { ImageContainer, Image, Button, } from "./ImageCarousel.styles";
 
 const ImageCarousel = () => {
-
-  const name = "url1";
-
+  const projectName = "url1";
   const {projectImages} = portfolioData;
-
-  const projectlist = projectImages[name];
+  const imageList = projectImages[projectName];
+  const imageLength = imageList.length - 1;
 
   const [index, setIndex] = useState(0);
-  const [imgUrl, setImgUrl] = useState(projectlist[index]);
+  const [imgUrl, setImgUrl] = useState(imageList[index]);
 
   const onClickLeft = () => {
     setIndex(index-1);
@@ -23,14 +21,19 @@ const ImageCarousel = () => {
   };
 
   useEffect(()=>{
-    setImgUrl(projectlist[index]);
+    setImgUrl(imageList[index]);
   }, [index])
 
 
   return(
     <ImageContainer>
       <Button
+        onClick={onClickLeft}
+        disabled={index === 0 ? true: false}
+      />
+      <Button
         onClick={onClickRight}
+        disabled={index === imageLength ? true: false}
       />
       <Image src={imgUrl}/>
     </ImageContainer>

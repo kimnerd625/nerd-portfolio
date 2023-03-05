@@ -19,34 +19,43 @@ const MyProjectCard = ({
   attribution,
   skills,
   imgUrl,
+  setIsModalOpened,
 }) => {
 
+  const handleClick = () => {
+    setIsModalOpened(true);
+    document.body.style.overflow = 'hidden';
+  }
+
   return (
-    <CardContainer>
-      <CardImageContainer>
-        <CardImage
-          src={imgUrl}
-          alt={`${title} 썸네일 이미지`}
-        />
-      </CardImageContainer>
-      <CardDetailContainer>
-        <CardTitle>
-          {title}
-          <CardDate>
-            {date}
-          </CardDate>
-        </CardTitle>
-        <CardDescription>
-          {description}
-        </CardDescription>
-        <CardAttribution>
-          {attribution}
-        </CardAttribution>
-        <CardSkill>
-          {skills}
-        </CardSkill>
-      </CardDetailContainer>
-    </CardContainer>
+    <CardContainer
+      type="button"
+      onClick={() => handleClick()}
+    >
+    <CardImageContainer>
+      <CardImage
+        src={imgUrl}
+        alt={`${title} 썸네일 이미지`}
+      />
+    </CardImageContainer>
+    <CardDetailContainer>
+      <CardTitle>
+        {title}
+        <CardDate>
+          {date}
+        </CardDate>
+      </CardTitle>
+      <CardDescription>
+        {description}
+      </CardDescription>
+      <CardAttribution>
+        {attribution}
+      </CardAttribution>
+      <CardSkill>
+        {skills}
+      </CardSkill>
+    </CardDetailContainer>
+  </CardContainer>
   );
 };
 

@@ -1,12 +1,12 @@
 import React from "react";
 
+import portfolioData from "../../portfolioData.json";
 import SubTitle from "../Typography/SubTitle";
 import MyProjectCard from "./MyProjectCard";
-import portfolioData from "../../portfolioData.json";
 
 import { MyProjectContainer } from "./MyProject.styles";
 
-const MyProject = () => {
+const MyProject = ({setIsProjectOpened}) => {
   const { projects } = portfolioData;
 
   return (
@@ -17,7 +17,7 @@ const MyProject = () => {
       { projects && (
         <>
           {projects.map((project, index) => (
-            <MyProjectCard key={index} {...project}/>
+            <MyProjectCard key={index} {...project} setIsModalOpened={setIsProjectOpened}/>
           ))}
         </>
       )}
