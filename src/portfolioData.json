@@ -14,8 +14,7 @@
       "date": "2022.10 ~ 2022.11",
       "skills": "#React, #Javascript, #Axios, #Styled-Components, #Redux, #AWS",
       "imgUrl": "https://user-images.githubusercontent.com/104896647/221491172-822e6550-eb7a-4f5f-b823-9e1e8556b048.jpg",
-      "projectUrl": "",
-      "githubUrl": ""
+      "projectUrl": "https://github.com/kimnerd625/watchTogether-teamProject"
     },
     {
       "title": "[팀] 동네 모임 커뮤니티 플랫폼: 동네#람들",
@@ -24,8 +23,7 @@
       "date": "2022.11 ~ 2022.12",
       "skills": "#React, #Javascript, #Axios, #Styled-Components, #Redux, #AWS",
       "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbNXLwD%2Fbtr1f0ShwuR%2FG4gTjIY783PQfi8W33dBM1%2Fimg.png",
-      "projectUrl": "",
-      "githubUrl": ""
+      "projectUrl": "https://github.com/kimnerd625/villagerServiceFe-teamProject"
     },
     {
       "title": "[팀] 튜터링 일정 및 수업 관리 모바일 앱: 수숙관",
@@ -34,8 +32,7 @@
       "date": "2022.12 ~ ",
       "skills": "#React-Native, #React, #Javascript, #Axios, #Styled-Components, #Redux",
       "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbMIJPQ%2Fbtr06XIVfgy%2FrphMoisz0Td3NojK6JgS1k%2Fimg.png",
-      "projectUrl": "",
-      "githubUrl": ""
+      "projectUrl": "https://github.com/SpringBeam/SpringBeam_FE"
     },
     {
       "title": "[개인] 개인 커스텀 포트폴리오: nerd-portfolio",
@@ -44,8 +41,7 @@
       "date": "2023.01 ~ 2023.02",
       "skills": "#React, #Javascript, #Styled-Components, #Netlify",
       "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeAFUGE%2Fbtr1dcMfDK1%2FdWska8kkgHHnAB6pvycdcK%2Fimg.png",
-      "projectUrl": "",
-      "githubUrl": ""
+      "projectUrl": "https://github.com/kimnerd625/nerd-portfolio"
     }
   ],
   "projectImages": {

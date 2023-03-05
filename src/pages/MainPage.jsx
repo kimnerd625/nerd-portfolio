@@ -15,7 +15,9 @@ const MainPage = () => {
   const [isNerdOpened, setIsNerdOpened] = useState(false);
   const [isProjectOpened, setIsProjectOpened] = useState(false);
   const [isSkillOpened, setIsSkillOpened] = useState(false);
+
   const [projectName, setProjectName] = useState("");
+  const [projectUrl, setProjectUrl] = useState("");
 
   const [position, setPosition] = useState(0);
   const onScroll = () => {
@@ -36,7 +38,7 @@ const MainPage = () => {
         <Margin size='1rem'/>
         <Introduction setIsNerdOpened={setIsNerdOpened}/>
         <Margin size='1rem'/>
-        <MyProject setIsProjectOpened={setIsProjectOpened} setProjectName={setProjectName}/>
+        <MyProject setIsProjectOpened={setIsProjectOpened} setProjectName={setProjectName} setProjectUrl={setProjectUrl}/>
         <Margin size='1rem'/>
         <MySkill />
         <Margin size='1rem'/>
@@ -50,7 +52,7 @@ const MainPage = () => {
         <SkillModal y={position} setIsSkillOpened={setIsSkillOpened} />
       )}
       { isProjectOpened && (
-        <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened} projectName={projectName}/>
+        <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened} projectName={projectName} projectUrl={projectUrl}/>
       )}
     </div>
   );

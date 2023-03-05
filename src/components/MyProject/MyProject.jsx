@@ -6,7 +6,7 @@ import MyProjectCard from "./MyProjectCard";
 
 import { MyProjectContainer } from "./MyProject.styles";
 
-const MyProject = ({setIsProjectOpened, setProjectName}) => {
+const MyProject = ({setIsProjectOpened, setProjectName, setProjectUrl}) => {
   const { projects } = portfolioData;
 
   return (
@@ -17,7 +17,12 @@ const MyProject = ({setIsProjectOpened, setProjectName}) => {
       { projects && (
         <>
           {projects.map((project, index) => (
-            <MyProjectCard key={index} {...project} setIsModalOpened={setIsProjectOpened} setProjectName={setProjectName}/>
+            <MyProjectCard 
+              key={index} {...project} 
+              setIsModalOpened={setIsProjectOpened} 
+              setProjectName={setProjectName}
+              setProjectUrl={setProjectUrl}
+            />
           ))}
         </>
       )}
