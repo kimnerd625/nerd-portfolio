@@ -10,7 +10,7 @@ const ProjectModal = ({y, setIsProjectOpened, projectName}) => {
   const handleClick = () => {
     setIsProjectOpened(false);
     document.body.style.removeProperty('overflow');
-  }
+  };
 
   return(
     <Wrapper>

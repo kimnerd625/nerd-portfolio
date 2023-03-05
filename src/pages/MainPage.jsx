@@ -7,11 +7,14 @@ import Introduction from "../components/Introduction/Introduction";
 import MyProject from "../components/MyProject/MyProject";
 import MyTimeline from "../components/MyTimeline/MyTimeline";
 import MySkill from "../components/MySkill/MySkill";
+import NerdModal from "../components/Modal/NerdModal";
 import ProjectModal from "../components/Modal/ProjectModal";
+import SkillModal from "../components/Modal/SkillModal";
 
 const MainPage = () => {
-
+  const [isNerdOpened, setIsNerdOpened] = useState(false);
   const [isProjectOpened, setIsProjectOpened] = useState(false);
+  const [isSkillOpened, setIsSkillOpened] = useState(false);
   const [projectName, setProjectName] = useState("");
 
   const [position, setPosition] = useState(0);
@@ -31,7 +34,7 @@ const MainPage = () => {
         <Margin size='3rem'/>
         <Header />
         <Margin size='1rem'/>
-        <Introduction />
+        <Introduction setIsNerdOpened={setIsNerdOpened}/>
         <Margin size='1rem'/>
         <MyProject setIsProjectOpened={setIsProjectOpened} setProjectName={setProjectName}/>
         <Margin size='1rem'/>
@@ -40,6 +43,12 @@ const MainPage = () => {
         <MyTimeline />
         <Margin size='1rem'/>
       </PageWrapper>
+      { isNerdOpened && (
+        <NerdModal y={position} setIsNerdOpened={setIsNerdOpened} />
+      )}
+      { isSkillOpened && (
+        <SkillModal y={position} setIsSkillOpened={setIsSkillOpened} />
+      )}
       { isProjectOpened && (
         <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened} projectName={projectName}/>
       )}

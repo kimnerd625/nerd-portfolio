@@ -73,16 +73,24 @@ const ProfileText = styled.li`
   line-height: 1.8rem;
   padding: 0.5rem 1rem;
 
-  & > span {
-    font-weight: 700;
-    margin-right: 0.75rem;
-    padding: 0.25rem 0.5rem;
-    background-color: #b9d0fc;
-    border-radius: 1.5rem;
-  }
-
   @media (max-width: 600px) {
     padding: 0.25rem 0rem;
+  }
+`;
+
+const ListContent = styled.span`
+  font-weight: 700;
+  margin-right: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #b9d0fc;
+  border-radius: 1.5rem;
+`;
+
+const ModalLink = styled.span`
+  cursor: pointer;
+
+  &:hover {
+    animation: ${blinkText} 1s linear infinite;
   }
 `;
 
@@ -100,6 +108,8 @@ export {
   ProfileImageContainer, 
   ProfileImage, 
   ProfileText, 
-  ProfileTextContainer, 
+  ProfileTextContainer,
+  ListContent,
+  ModalLink,
   Link,
 };

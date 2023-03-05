@@ -1,4 +1,17 @@
-import styled from 'styled-components';
+import styled, {keyframes} from "styled-components";
+
+const appear = keyframes`
+  0% {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    transform: translateX(-10%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    transform: translateX(-10%);
+  }
+`;
 
 const Wrapper = styled.div`
   position: absolute;
@@ -26,6 +39,7 @@ const ModalContainer = styled.div`
   background-color: #fff;
   border-radius: 12px;
   transform: translateX(-10%);
+  animation: ${appear} 1s;
 
   @media (max-width: 600px) {
     transform: translateX(0%);
@@ -54,44 +68,5 @@ const CancleButton = styled.div`
     }
   }
 `;
-  
-const GitHubButton = styled.div`
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
 
-  .icon {
-    font-size: 1.4rem;
-    color: ${(props) => props.theme.color.headerColor_200}
-  }
-
-  @media (max-width: 600px) {
-    .icon {
-      font-size: 1.2rem;
-    }
-  }
-`;
-
-const ButtonText = styled.h2`
-  font-family: 'Work Sans';
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: ${(props) => props.theme.color.headerColor_200};
-  padding-right: 0.5rem;
-
-  @media (max-width: 600px) {
-    font-size: 1rem;
-  }
-`;
-
-
-export {
-  Wrapper,
-  ModalContainer,
-  ButtonContainer,
-  CancleButton,
-  GitHubButton,
-  ButtonText,
-};
+export { Wrapper, ModalContainer, ButtonContainer, CancleButton, };
