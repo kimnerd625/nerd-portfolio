@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 const Wrapper = styled.div`
   position: absolute;
@@ -10,6 +10,7 @@ const Wrapper = styled.div`
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
   z-index: 999;
+
 `;
 
 const ModalContainer = styled.div`
@@ -26,6 +27,12 @@ const ModalContainer = styled.div`
   background-color: #fff;
   border-radius: 12px;
   transform: translateX(-10%);
+
+  @media (max-width: 600px) {
+    transform: translateX(0%);
+    width: 95%;
+    padding: 0.5rem;
+  }
 `;
 
 const ButtonContainer = styled.div`
@@ -35,17 +42,49 @@ const ButtonContainer = styled.div`
 `;
 
 const CancleButton = styled.div`
-  border: 1px solid red;
-  width: 4rem;
-  height: 4rem;
   cursor: pointer;
+
+  .icon {
+    font-size: 1.6rem;
+    color: ${(props) => props.theme.color.headerColor_200}
+  }
+
+  @media (max-width: 600px) {
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+`;
+  
+const GitHubButton = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+  .icon {
+    font-size: 1.4rem;
+    color: ${(props) => props.theme.color.headerColor_200}
+  }
+
+  @media (max-width: 600px) {
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
 `;
 
-const GitHubButton = styled.div`
-  border: 1px solid red;
-  width: 4rem;
-  height: 4rem;
-  cursor: pointer;
+const ButtonText = styled.h2`
+  font-family: 'Work Sans';
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: ${(props) => props.theme.color.headerColor_200};
+  padding-right: 0.5rem;
+
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 
@@ -55,4 +94,5 @@ export {
   ButtonContainer,
   CancleButton,
   GitHubButton,
+  ButtonText,
 };

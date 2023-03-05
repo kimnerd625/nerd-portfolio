@@ -1,7 +1,8 @@
 import React, {useState, useEffect, } from "react";
+import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 
 import portfolioData from "../../portfolioData.json";
-import { ImageContainer, Image, Button, } from "./ImageCarousel.styles";
+import { ImageContainer, Image, ButtonContainer, Button, } from "./ImageCarousel.styles";
 
 const ImageCarousel = () => {
   const projectName = "url1";
@@ -13,11 +14,19 @@ const ImageCarousel = () => {
   const [imgUrl, setImgUrl] = useState(imageList[index]);
 
   const onClickLeft = () => {
-    setIndex(index-1);
+    if (index === 0) {
+
+    } else {
+      setIndex(index-1);
+    }
   };
 
   const onClickRight = () => {
-    setIndex(index+1);
+    if (index === imageLength) {
+
+    } else {
+      setIndex(index+1);
+    }
   };
 
   useEffect(()=>{
@@ -27,14 +36,20 @@ const ImageCarousel = () => {
 
   return(
     <ImageContainer>
-      <Button
-        onClick={onClickLeft}
-        disabled={index === 0 ? true: false}
-      />
-      <Button
-        onClick={onClickRight}
-        disabled={index === imageLength ? true: false}
-      />
+      <ButtonContainer>
+        <Button
+          type='button'
+          onClick={onClickLeft}
+        >
+          <IoChevronBackOutline className='icon'/>
+        </Button>
+        <Button
+          type='button'
+          onClick={onClickRight}
+        >
+          <IoChevronForwardOutline className='icon'/>
+        </Button>
+      </ButtonContainer>
       <Image src={imgUrl}/>
     </ImageContainer>
   );

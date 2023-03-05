@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react';
+import { IoClose, IoTelescope } from 'react-icons/io5';
 
-import ImageCarousel from "../Carousel/ImageCarousel";
-import { Wrapper, ModalContainer, ButtonContainer, CancleButton, GitHubButton, } from "./ProjectModal.styles";
+import ImageCarousel from '../Carousel/ImageCarousel';
+import { Wrapper, ModalContainer, ButtonContainer, CancleButton, GitHubButton, ButtonText, } from './ProjectModal.styles';
 
 const ProjectModal = ({y, setIsProjectOpened}) => {
   const height = y;
@@ -15,8 +16,13 @@ const ProjectModal = ({y, setIsProjectOpened}) => {
     <Wrapper>
       <ModalContainer height={height}>
         <ButtonContainer>
-          <CancleButton type='button' onClick={() => handleClick()}/>
-          <GitHubButton type='button' />
+          <CancleButton type='button' onClick={() => handleClick()}>
+            <IoClose className='icon'/>
+          </CancleButton>
+          <GitHubButton type='button'>
+            <ButtonText>GitHub</ButtonText>
+            <IoTelescope className='icon'/>
+          </GitHubButton>
         </ButtonContainer>
         <ImageCarousel />
       </ModalContainer>
