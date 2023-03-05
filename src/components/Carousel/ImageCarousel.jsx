@@ -4,10 +4,10 @@ import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 import portfolioData from "../../portfolioData.json";
 import { ImageContainer, Image, ButtonContainer, Button, } from "./ImageCarousel.styles";
 
-const ImageCarousel = () => {
-  const projectName = "url1";
+const ImageCarousel = ({projectName}) => {
+  const arrayIndex = projectName;
   const {projectImages} = portfolioData;
-  const imageList = projectImages[projectName];
+  const imageList = projectImages[arrayIndex];
   const imageLength = imageList.length - 1;
 
   const [index, setIndex] = useState(0);

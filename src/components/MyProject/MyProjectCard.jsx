@@ -20,9 +20,11 @@ const MyProjectCard = ({
   skills,
   imgUrl,
   setIsModalOpened,
+  setProjectName,
 }) => {
 
   const handleClick = () => {
+    setProjectName(title);
     setIsModalOpened(true);
     document.body.style.overflow = 'hidden';
   }

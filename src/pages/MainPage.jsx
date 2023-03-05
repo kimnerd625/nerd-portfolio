@@ -12,6 +12,7 @@ import ProjectModal from "../components/Modal/ProjectModal";
 const MainPage = () => {
 
   const [isProjectOpened, setIsProjectOpened] = useState(false);
+  const [projectName, setProjectName] = useState("");
 
   const [position, setPosition] = useState(0);
   const onScroll = () => {
@@ -32,7 +33,7 @@ const MainPage = () => {
         <Margin size='1rem'/>
         <Introduction />
         <Margin size='1rem'/>
-        <MyProject setIsProjectOpened={setIsProjectOpened}/>
+        <MyProject setIsProjectOpened={setIsProjectOpened} setProjectName={setProjectName}/>
         <Margin size='1rem'/>
         <MySkill />
         <Margin size='1rem'/>
@@ -40,7 +41,7 @@ const MainPage = () => {
         <Margin size='1rem'/>
       </PageWrapper>
       { isProjectOpened && (
-        <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened}/>
+        <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened} projectName={projectName}/>
       )}
     </div>
   );
