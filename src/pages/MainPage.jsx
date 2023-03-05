@@ -40,7 +40,7 @@ const MainPage = () => {
         <Margin size='1rem'/>
       </PageWrapper>
       { isProjectOpened && (
-        <ProjectModal y={position}/>
+        <ProjectModal y={position} setIsProjectOpened={setIsProjectOpened}/>
       )}
     </div>
   );

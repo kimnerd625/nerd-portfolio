@@ -28,8 +28,31 @@ const ModalContainer = styled.div`
   transform: translateX(-10%);
 `;
 
+const ButtonContainer = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+`;
+
+const CancleButton = styled.div`
+  border: 1px solid red;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+`;
+
+const GitHubButton = styled.div`
+  border: 1px solid red;
+  width: 4rem;
+  height: 4rem;
+  cursor: pointer;
+`;
+
 
 export {
   Wrapper,
   ModalContainer,
+  ButtonContainer,
+  CancleButton,
+  GitHubButton,
 };
