@@ -21,7 +21,7 @@ const fadeOut = keyframes`
 const ImageContainer = styled.div`
   position: relative;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   width: 100%;
   justify-content: center;
   align-items: center;
@@ -32,6 +32,11 @@ const Image = styled.img`
   max-height: 100%;
   animation: ${fadeIn} 1.2s;
   animation: ${fadeOut} 1.2s;
+`;
+
+const PreviewImage = styled.img`
+  max-height: 0px;
+  overflow: hidden;
 `;
 
 const ButtonContainer = styled.div`
@@ -60,6 +65,7 @@ const Button = styled.div`
 export {
   ImageContainer,
   Image,
+  PreviewImage,
   ButtonContainer,
   Button,
 };

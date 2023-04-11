@@ -2,7 +2,13 @@ import React, {useState, useEffect, } from "react";
 import { IoChevronBackOutline, IoChevronForwardOutline } from 'react-icons/io5';
 
 import portfolioData from "../../portfolioData.json";
-import { ImageContainer, Image, ButtonContainer, Button, } from "./ImageCarousel.styles";
+import { 
+  ImageContainer, 
+  Image, 
+  ButtonContainer, 
+  Button, 
+  PreviewImage, 
+} from "./ImageCarousel.styles";
 
 const ImageCarousel = ({projectName}) => {
   const arrayIndex = projectName;
@@ -11,7 +17,9 @@ const ImageCarousel = ({projectName}) => {
   const imageLength = imageList.length - 1;
 
   const [index, setIndex] = useState(0);
+  const [nextIndex, setNextIndex] = useState(1);
   const [imgUrl, setImgUrl] = useState(imageList[index]);
+  const [nextImgUrl, setNextImgURl] = useState(imageList[nextIndex]);
 
   const onClickLeft = () => {
     if (index === 0) {
@@ -31,7 +39,12 @@ const ImageCarousel = ({projectName}) => {
 
   useEffect(()=>{
     setImgUrl(imageList[index]);
-  }, [index])
+    if (nextIndex > imageLength) {
+      setNextIndex(index);
+    }
+    setNextIndex(index+1);
+    setNextImgURl(imageList[nextIndex]);
+  }, [index, nextIndex])
 
 
   return(
@@ -51,6 +64,7 @@ const ImageCarousel = ({projectName}) => {
         </Button>
       </ButtonContainer>
       <Image src={imgUrl} key={`${imgUrl}`}/>
+      <PreviewImage src={nextImgUrl} key={`${nextImgUrl}`}/>
     </ImageContainer>
   );
 };
