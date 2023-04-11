@@ -40,7 +40,7 @@ const Wrapper = styled.div`
 
 const ModalContainer = styled.div`
   position: absolute;
-  top: calc(${(props) => `${props.height}px`} + 14rem);
+  top: calc(${(props) => `${props.height}px`} + 4rem);
   left: 0;
   right: 0;
   margin: auto;
