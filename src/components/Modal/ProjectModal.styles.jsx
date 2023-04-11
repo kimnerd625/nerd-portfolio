@@ -14,7 +14,7 @@ const Wrapper = styled.div`
 
 const ModalContainer = styled.div`
   position: absolute;
-  top: calc(${(props) => `${props.height}px`} + 14rem);
+  top: calc(${(props) => `${props.height}px`} + 4rem);
   left: 0;
   right: 0;
   margin: auto;
@@ -25,7 +25,6 @@ const ModalContainer = styled.div`
   padding: 1rem;
   background-color: #fff;
   border-radius: 12px;
-  transform: translateX(-10%);
 
   @media (max-width: 600px) {
     transform: translateX(0%);
@@ -40,7 +39,7 @@ const ButtonContainer = styled.div`
   justify-content: space-between;
 `;
 
-const CancleButton = styled.div`
+const CancelButton = styled.div`
   cursor: pointer;
 
   .icon {
@@ -91,7 +90,7 @@ export {
   Wrapper,
   ModalContainer,
   ButtonContainer,
-  CancleButton,
+  CancelButton,
   GitHubButton,
   ButtonText,
 };

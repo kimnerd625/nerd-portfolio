@@ -2,7 +2,7 @@ import React from 'react';
 import { IoClose, IoTelescope } from 'react-icons/io5';
 
 import ImageCarousel from '../Carousel/ImageCarousel';
-import { Wrapper, ModalContainer, ButtonContainer, CancleButton, GitHubButton, ButtonText, } from './ProjectModal.styles';
+import { Wrapper, ModalContainer, ButtonContainer, CancelButton, GitHubButton, ButtonText, } from './ProjectModal.styles';
 
 const ProjectModal = ({y, setIsProjectOpened, projectName, projectUrl}) => {
   const height = y;
@@ -16,9 +16,9 @@ const ProjectModal = ({y, setIsProjectOpened, projectName, projectUrl}) => {
     <Wrapper>
       <ModalContainer height={height}>
         <ButtonContainer>
-          <CancleButton type='button' onClick={() => handleClick()}>
+          <CancelButton type='button' onClick={() => handleClick()}>
             <IoClose className='icon'/>
-          </CancleButton>
+          </CancelButton>
           <a href={projectUrl}>
             <GitHubButton type='button'>
               <ButtonText>GitHub</ButtonText>
