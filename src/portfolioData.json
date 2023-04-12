@@ -42,6 +42,15 @@
       "skills": "#React, #Javascript, #Styled-Components, #Netlify",
       "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeAFUGE%2Fbtr1dcMfDK1%2FdWska8kkgHHnAB6pvycdcK%2Fimg.png",
       "projectUrl": "https://github.com/kimnerd625/nerd-portfolio"
+    },
+    {
+      "title": "[팀] MZ들의 유사과학 놀이터: 티케",
+      "description": "10대, 20대를 메인 타겟으로 한 심리, 운세, 유형검사 기능을 흥미롭게 제공하는 웹/앱 서비스를 개발했습니다.",
+      "attribution": "해당 프로젝트의 기획 및 프론트엔드 개발을 담당했습니다.",
+      "date": "2023.04 ~ ",
+      "skills": "#React, #Javascript, #TypeScript, #Styled-Components, #React-Native",
+      "imgUrl": "https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeAFUGE%2Fbtr1dcMfDK1%2FdWska8kkgHHnAB6pvycdcK%2Fimg.png",
+      "projectUrl": "https://github.com/kimnerd625/nerd-portfolio"
     }
   ],
   "projectImages": {
@@ -129,8 +138,13 @@
   },
   "timelines": [
     {
+      "date": "2023.04 ~ ",
+      "title": "협업 프로젝트 - 티케",
+      "description": "팀 프로젝트 진행, 서비스 기획, 개발"
+    },
+    {
       "date": "2023.03 ~ ",
-      "title": "인공지능 교육 단체 OUTTA 기술부원",
+      "title": "인공지능 교육 서비스 OUTTA 기술부원",
       "description": "OUTTA 2기 활동, 프론트엔드 개발"
     },
     {
