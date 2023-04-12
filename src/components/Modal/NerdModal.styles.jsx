@@ -57,6 +57,7 @@ const ModalContainer = styled.div`
     transform: translateX(0%);
     width: 95%;
     padding: 0.5rem;
+    top: calc(${(props) => `${props.height}px`} + 8rem);
   }
 `;
 
@@ -107,6 +108,10 @@ const ContentText = styled.h3`
   font-family: 'NanumSquareR';
   font-size: 1.1rem;
   line-height: 2.4rem;
+
+  @media (max-width: 600px) {
+    font-size: 0.9rem;
+  }
 `;
 
 export { 
