@@ -45,7 +45,7 @@ const CancelButton = styled.div`
 
   .icon {
     font-size: 1.6rem;
-    color: ${(props) => props.theme.color.headerColor_200}
+    color: ${(props) => props.theme.color.modalColor}
   }
 
   @media (max-width: 600px) {
@@ -64,7 +64,7 @@ const GitHubButton = styled.div`
 
   .icon {
     font-size: 1.4rem;
-    color: ${(props) => props.theme.color.headerColor_200}
+    color: ${(props) => props.theme.color.modalColor}
   }
 
   @media (max-width: 600px) {
@@ -78,7 +78,7 @@ const ButtonText = styled.h2`
   font-family: 'Work Sans';
   font-size: 1.2rem;
   font-weight: 600;
-  color: ${(props) => props.theme.color.headerColor_200};
+  color: ${(props) => props.theme.color.modalColor};
   padding-right: 0.5rem;
 
   @media (max-width: 600px) {

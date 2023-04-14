@@ -52,7 +52,7 @@ const Button = styled.div`
   z-index: 999;
   .icon {
     font-size: 2rem;
-    color: ${(props) => props.theme.color.headerColor_200}
+    color: ${(props) => props.theme.color.modalColor}
   }
 
   @media (max-width: 600px) {

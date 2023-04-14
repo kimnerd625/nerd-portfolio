@@ -1,5 +1,9 @@
 import styled from "styled-components";
 
+const BackgroundColor = styled.div`
+  background-color: ${(props) => props.theme.color.backgroundColor};
+`;
+
 const Wrapper = styled.div`
   // border: 1px solid red;
   width: 100%;
@@ -10,4 +14,4 @@ const Wrapper = styled.div`
   background-color: ${(props) => props.theme.color.backgroundColor};
 `;
 
-export { Wrapper };
+export { Wrapper, BackgroundColor };

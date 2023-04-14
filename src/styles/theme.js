@@ -12,6 +12,7 @@ export const dark = {
     highlightColor_200: '#BF9000',
     highlightColor_300: '#0e0c32',
     skyColor: '#0e0c32',
+    modalColor: '##121f30',
   }
 }
 
@@ -29,5 +30,6 @@ export const light = {
     highlightColor_200: '#FEF5D4',
     highlightColor_300: '#FEF5D4',
     skyColor: '#E1F5FE',
+    modalColor: '##121f30',
   }
 }

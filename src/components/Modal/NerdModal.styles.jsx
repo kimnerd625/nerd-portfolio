@@ -72,7 +72,7 @@ const CancleButton = styled.div`
 
   .icon {
     font-size: 1.6rem;
-    color: ${(props) => props.theme.color.headerColor_200}
+    color: ${(props) => props.theme.color.modalColor}
   }
 
   @media (max-width: 600px) {
@@ -105,7 +105,7 @@ const TitleText = styled.h2`
 `;
 
 const ContentText = styled.h3`
-  color: ${(props) => props.theme.color.headerColor_200};
+  color: ${(props) => props.theme.color.modalColor};
   font-family: 'NanumSquareR';
   font-size: 1.1rem;
   line-height: 2.4rem;

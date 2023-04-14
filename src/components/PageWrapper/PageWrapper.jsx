@@ -1,11 +1,13 @@
 import React from "react";
-import { Wrapper } from "./PageWrapper.styles";
+import { BackgroundColor, Wrapper } from "./PageWrapper.styles";
 
 const PageWrapper = ({children}) => {
   return (
-    <Wrapper>
-      {children}
-    </Wrapper>
+    <BackgroundColor>
+      <Wrapper>
+        {children}
+      </Wrapper>
+    </BackgroundColor>
   );
 };
 
