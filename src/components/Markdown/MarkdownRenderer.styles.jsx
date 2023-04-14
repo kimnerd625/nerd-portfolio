@@ -31,7 +31,7 @@ const MarkdownText = styled.div`
     font-family: 'NanumSquareEB';
     text-decoration-line: underline;
     text-decoration-thickness: 1.2rem;
-    text-decoration-color: #fef5d4;
+    text-decoration-color: ${(props) => props.theme.color.highlightColor_200};
     text-underline-offset: -0.9rem;
   }
 `;

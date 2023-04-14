@@ -10,8 +10,9 @@ import MySkill from "../components/MySkill/MySkill";
 import NerdModal from "../components/Modal/NerdModal";
 import ProjectModal from "../components/Modal/ProjectModal";
 import SkillModal from "../components/Modal/SkillModal";
+import ToggleBar from "../components/Header/ToggleBar";
 
-const MainPage = () => {
+const MainPage = ({theme, toggleTheme}) => {
   const [isNerdOpened, setIsNerdOpened] = useState(false);
   const [isProjectOpened, setIsProjectOpened] = useState(false);
   const [isSkillOpened, setIsSkillOpened] = useState(false);
@@ -33,7 +34,9 @@ const MainPage = () => {
   return (
     <div>
       <PageWrapper>
-        <Margin size='3rem'/>
+        <Margin size='2rem'/>
+        <ToggleBar theme={theme} toggleTheme={toggleTheme}/>
+        <Margin size='1rem'/>
         <Header />
         <Margin size='1rem'/>
         <Introduction setIsNerdOpened={setIsNerdOpened}/>

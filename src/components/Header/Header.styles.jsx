@@ -4,7 +4,7 @@ const HeaderSection = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-contents: center;
+  justify-content: center;
   text-align: center;
 `;
 

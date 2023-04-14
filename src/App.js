@@ -16,7 +16,7 @@ const App = () => {
     <ThemeProvider theme={theme}>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<MainPage />} />
+          <Route path="/" element={<MainPage theme={themeMode} toggleTheme={toggleTheme}/>} />
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
