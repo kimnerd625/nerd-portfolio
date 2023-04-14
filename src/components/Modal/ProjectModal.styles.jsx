@@ -30,7 +30,7 @@ const ModalContainer = styled.div`
     transform: translateX(0%);
     width: 95%;
     padding: 0.5rem;
-    top: calc(${(props) => `${props.height}px`} + 4rem);
+    top: calc(${(props) => `${props.height}px`} + 12rem);
   }
 `;
 

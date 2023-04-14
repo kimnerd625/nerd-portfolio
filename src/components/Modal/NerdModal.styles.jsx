@@ -99,7 +99,8 @@ const TitleText = styled.h2`
   animation: ${blinkText} 1s linear infinite;
 
   @media (max-width: 600px) {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    line-height: 2rem;
   }
 `;
 
@@ -110,7 +111,8 @@ const ContentText = styled.h3`
   line-height: 2.4rem;
 
   @media (max-width: 600px) {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
+    line-height: 1.6rem;
   }
 `;
 
